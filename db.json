@@ -34,7 +34,7 @@
       "email": "david@company.com",
       "department": "Finance",
       "salary": 3000,
-      "active": true
+      "active": false
     },
     {
       "id": 5,
