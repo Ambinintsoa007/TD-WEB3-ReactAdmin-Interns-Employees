@@ -96,6 +96,16 @@
       "isRemunerate": false,
       "remuneration": 0,
       "managerId": 2
+    },
+    {
+      "firstname": "Dylan",
+      "lastname": "xD",
+      "email": "",
+      "department": "Informatique",
+      "isRemunerate": false,
+      "remuneration": 0,
+      "managerId": 5,
+      "id": 6
     }
   ]
 }
