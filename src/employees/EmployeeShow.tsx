@@ -8,6 +8,8 @@ import {
   TextField,
   TopToolbar,
 } from "react-admin";
+import { InternsByManager } from "./InternsByManager";
+import { DepartmentStats } from "./DepartmentStats";
 
 function EmployeeShowActions() {
   return (
@@ -34,6 +36,9 @@ export function EmployeeShow() {
           options={{ style: "currency", currency: "EUR" }}
         />
         <BooleanField source="active" label="Actif" />
+
+        <DepartmentStats />
+        <InternsByManager />
       </SimpleShowLayout>
     </Show>
   );
