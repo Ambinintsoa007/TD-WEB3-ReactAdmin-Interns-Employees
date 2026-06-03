@@ -2,7 +2,7 @@
   "employees": [
     {
       "id": 1,
-      "firstname": "Alicesss",
+      "firstname": "Alice",
       "lastname": "Martin",
       "email": "alice@company.com",
       "department": "Informatique",
@@ -28,13 +28,84 @@
       "active": false
     },
     {
-      "active": true,
-      "firstname": "Jhon",
-      "lastname": "Smith",
-      "email": "smth@hahaha.doe",
+      "id": 4,
+      "firstname": "David",
+      "lastname": "Rabe",
+      "email": "david@company.com",
+      "department": "Finance",
+      "salary": 3000,
+      "active": false
+    },
+    {
+      "id": 5,
+      "firstname": "Emma",
+      "lastname": "Rakoto",
+      "email": "emma@company.com",
       "department": "Informatique",
-      "salary": 1000000,
-      "id": 4
+      "salary": 3200,
+      "active": true
+    }
+  ],
+  "interns": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Mik",
+      "email": "john@company.com",
+      "department": "Informatique",
+      "isRemunerate": true,
+      "remuneration": 200,
+      "managerId": 1
+    },
+    {
+      "id": 2,
+      "firstname": "Sarah",
+      "lastname": "Andry",
+      "email": "sarah@company.com",
+      "department": "Marketing",
+      "isRemunerate": true,
+      "remuneration": 300,
+      "managerId": 2
+    },
+    {
+      "id": 3,
+      "firstname": "Lucas",
+      "lastname": "Ravel",
+      "email": "lucas@company.com",
+      "department": "Finance",
+      "isRemunerate": false,
+      "remuneration": 0,
+      "managerId": 4
+    },
+    {
+      "id": 4,
+      "firstname": "Mia",
+      "lastname": "Randria",
+      "email": "mia@company.com",
+      "department": "Informatique",
+      "isRemunerate": true,
+      "remuneration": 250,
+      "managerId": 5
+    },
+    {
+      "id": 5,
+      "firstname": "Noah",
+      "lastname": "Jean",
+      "email": "noah@company.com",
+      "department": "Marketing",
+      "isRemunerate": false,
+      "remuneration": 0,
+      "managerId": 2
+    },
+    {
+      "firstname": "Dylan",
+      "lastname": "xD",
+      "email": "",
+      "department": "Informatique",
+      "isRemunerate": false,
+      "remuneration": 0,
+      "managerId": 5,
+      "id": 6
     }
   ]
 }
