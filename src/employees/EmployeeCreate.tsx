@@ -7,7 +7,6 @@ import {
   SimpleForm,
   TextInput,
   minValue,
-  email,
 } from "react-admin";
 
 export function EmployeeCreate() {
